@@ -309,11 +309,25 @@ footer {
 
   .container_contact_form {
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
+    align-items: center;
     margin: auto;
     margin-right: 250px;
     margin-top: 50px;
     margin-bottom: 50px;
+  }
+
+  .contact_img {
+    width: 70%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 35px;
+  }
+
+  .contact_title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;    
   }
 
   label {
@@ -465,5 +479,23 @@ footer {
         font-size: 18px;
         margin-bottom: 30px;
       }
+
+      .container_contact_form {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-direction: column;
+      }
+    
+      .contact_img {
+        width: 50%;
+        margin: auto;
+        border-radius: 35px;
+        margin-bottom: 50px;
+      }
+    
 
 }
